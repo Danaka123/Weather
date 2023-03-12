@@ -13,14 +13,14 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #06283d;
+  background: #af7272;
 }
 
 .container {
   position: relative;
   width: 400px;
   height: 105px;
-  background-color: #fff;
+  background-color: #abd0e6;
   padding: 28px 32px;
   overflow: hidden;
   border-radius: 18px;
@@ -42,6 +42,7 @@ body{
   font-weight: 500;
   text-transform: uppercase;
   padding-left: 32px;
+  background: #abd0e6;
 }
 
 .search-box input::placeholder{
@@ -59,7 +60,8 @@ body{
   background: #dff6ff;
   border-radius: 50%;
   font-size: 22px;
-  transition: 0,4s ease;
+  transition: 0.4s ease;
+
 }
 
 .search-box button:hover{
